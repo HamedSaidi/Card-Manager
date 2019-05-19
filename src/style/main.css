@@ -1,0 +1,81 @@
+:root {
+  --header-bg-img: linear-gradient(to right, rgba(0,0,255,0.4), rgba(0,0,255,0.5));
+  --black: #000;
+  --white: #fff;
+  --blue: #00f;
+}
+
+.body-container {
+  margin: 40px auto;
+  padding: 0;
+  width: 1200px;
+  border:  var(--blue) 1px solid;
+}
+
+.header-title {
+  background-image: var(--header-bg-img);
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.products-table-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.products-table-head-element {
+  background-image: var(--header-bg-img);
+}
+
+.product-item-btn-container {
+  background-color: var(--white);
+  border: var(--white) 0;
+  width: 200px;
+  padding: 5px;
+}
+
+.products-table-element,
+.products-table-head-element {
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  border: var(--black) 1px solid;
+}
+
+tr:nth-child(even),
+.total-item:nth-child(even) {background: #CCC}
+tr:nth-child(odd),
+.total-item:nth-child(odd)  {background: #FFF}
+
+.add-new-product-btn {
+  background-image: var(--header-bg-img);
+  margin: 20px;
+  padding: 15px;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+
+.totals-list-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.totals-list {
+  margin: 20px;
+  display: flex;
+  border: var(--black) 1px solid;
+  flex-direction: column;
+}
+
+.total-item {
+  display: flex;
+}
+
+.total-item_key,
+.total-item_value {
+  min-width: 200px;
+  padding: 10px;
+}

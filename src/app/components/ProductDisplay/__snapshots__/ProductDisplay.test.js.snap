@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDisplay/> should call handleDelete when user clicks on delete button 1`] = `
+<tr>
+  <td
+    className="products-table-element"
+  >
+    1
+  </td>
+  <td
+    className="products-table-element"
+  >
+    test name
+  </td>
+  <td
+    className="products-table-element"
+  >
+    test comment
+  </td>
+  <td
+    className="products-table-element"
+  >
+    21
+     €
+  </td>
+  <td
+    className="products-table-element"
+  >
+    0
+     %
+  </td>
+  <td
+    className="products-table-element"
+  >
+    21
+  </td>
+  <td
+    className="product-item-btn-container"
+  >
+    <button
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Edit
+    </button>
+  </td>
+</tr>
+`;
+
+exports[`<ProductDisplay/> should call handleEdit when user clicks on delete button 1`] = `
+<tr>
+  <td
+    className="products-table-element"
+  >
+    1
+  </td>
+  <td
+    className="products-table-element"
+  >
+    test name
+  </td>
+  <td
+    className="products-table-element"
+  >
+    test comment
+  </td>
+  <td
+    className="products-table-element"
+  >
+    21
+     €
+  </td>
+  <td
+    className="products-table-element"
+  >
+    0
+     %
+  </td>
+  <td
+    className="products-table-element"
+  >
+    21
+  </td>
+  <td
+    className="product-item-btn-container"
+  >
+    <button
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Edit
+    </button>
+  </td>
+</tr>
+`;
+
+exports[`<ProductDisplay/> should render properly 1`] = `
+<tr>
+  <td
+    className="products-table-element"
+  >
+    1
+  </td>
+  <td
+    className="products-table-element"
+  >
+    test name
+  </td>
+  <td
+    className="products-table-element"
+  >
+    test comment
+  </td>
+  <td
+    className="products-table-element"
+  >
+    21
+     €
+  </td>
+  <td
+    className="products-table-element"
+  >
+    0
+     %
+  </td>
+  <td
+    className="products-table-element"
+  >
+    21
+  </td>
+  <td
+    className="product-item-btn-container"
+  >
+    <button
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Edit
+    </button>
+  </td>
+</tr>
+`;
